@@ -1,0 +1,82 @@
+/* Common Css Start */
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    
+}
+
+a{
+    text-decoration: none
+}
+ul{
+   list-style-type: none;   
+
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.clear_fix{
+    clear: both;
+}
+
+.container{
+    width: 1479px;
+    margin: 0 auto;   
+}
+.row{
+   display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+/* //Common Css End */
+
+
+
+
+
+/* Nav Section Css Start */
+
+nav{
+     background-color: #131e29;
+}
+ nav  .logo{
+  
+   width: 25%;
+    margin: auto 0;
+    
+
+
+     
+}
+ nav .logo img{
+    display:block;
+}
+  nav .menu{
+  width: 75%;
+    
+}
+nav .menu ul li{
+    display: inline-block;
+}
+
+nav .menu ul li a{
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 800;
+    padding: 25px 40px;
+    color: #fff;
+}
+
+/* //Nav Section Css End */
+
+
+.section{
+    background-color: red;
+}
+
+
+

@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+:root{
+
+/*------Header CSS Start*/
+}
+#header{
+background-color: #131e29;
+}
+#header .container{
+    
+    height: 78px;
+    width: 1180px;
+    
+    margin: 0 auto;
+}
+#header .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 78px;
+    
+    
+}
+
+#header nav ul{
+    display: flex;
+}
+#header ul li{
+      list-style: none;
+      
+}
+
+#header ul li a{
+    
+    text-decoration: none;
+    color: #fff;
+    padding:20px 25px ;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 400;
+
+    
+    
+}
+
+#header ul li a:hover{
+    background-color: #47688a;
+    color: #131e29;
+}
+/*------Header CSS End*/
+.banner{
+    background-image: url(../images/banner.jpg);
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
